@@ -1,0 +1,178 @@
+body{
+    background-color:rgb(9, 44, 61) ;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    flex-wrap: nowrap;
+    flex: 0 0 40%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: antiquewhite;
+}
+
+.text> h1{
+    text-align: left;
+    margin-left: 18%;
+
+}
+
+h2{
+    text-align: left;
+    margin-left: 18%; 
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+h3{
+    text-align: left;
+    margin-left: 18%; 
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.sub{
+    text-align: left;
+    margin-left: 18%;
+    margin-top: 0px;
+    color: antiquewhite;
+}
+
+button{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 253);
+    width: 300px;
+    box-shadow: 0 12px 16px 0 rgba(244, 177, 21, 0.484), 0 17px 50px 0 rgba(18, 13, 1, 0.653);
+}
+
+.playfair-display-contactme{
+    font-family: "Playfair Display", serif;
+    margin-left: 108px;
+    margin-right: 100px;
+    margin-top: 0px;
+    background-color: rgb(255, 255, 253);
+    font-size: 30px;
+    color: rgb(5, 4, 0);
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgba(164, 143, 36, 0.574);
+    
+}
+
+.side_img{
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.hero{
+    border: 3px rgba(44, 87, 124, 0.619);
+    border-style: double;
+}
+
+.playfair-display-semi {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-size: 4rem;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+   
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    font-style: normal;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 8rem;
+    color: rgba(219, 220, 184, 0.855);
+}
+
+.playfair-display-frntend{
+    font-family:"Playfair Display",monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.container{
+    text-align: center;
+    background-color: rgba(53, 110, 110, 0.264);
+}
+
+.container> p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.playfair-display-aboutme{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 60px;
+  font-style: normal;
+  color: rgb(255, 230, 6);
+}
+.mid_container_2 > p{
+ margin-top: 60px;
+ margin-bottom: 60px;
+}
+.container_grid{
+    display: grid;
+    grid-template-rows: 300px ;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr  1fr  1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.project_grid  p{
+    margin-top: 5rem;
+    font-size: 30px;
+    font-family:"Playfair Display",monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 2rem;
+    color: rgba(249, 249, 249, 0.911);
+}
+
+.project_grid img{
+    border-style: groove;
+    box-shadow: 10px 10px 5px rgba(164, 143, 36, 0.574);
+}   
+
+a>p{
+    font-size: 30px;
+    color: rgba(250, 235, 215, 0.96);
+}
+
+footer>p{
+    color: #c2ddf4f1;
+}
